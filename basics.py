@@ -48,4 +48,19 @@ else:
     print("Operation not available ")
 print(result)    
     
+
+
+// Last digit of a number 
+num=int(input("enter the number "))
+last_digit=num%10
+print(last_digit)
+
+
+//Even no
+num=int(input("enter the number "))
+remainder=num%2
+if remainder==0:
+    print("Given number is even ")
+else:
+    print("Given number is odd and it's remainder is", remainder) 
   
