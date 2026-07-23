@@ -63,4 +63,12 @@ if remainder==0:
     print("Given number is even ")
 else:
     print("Given number is odd and it's remainder is", remainder) 
+
+
+//vowel
+char=input("enter single character ")
+if char in ("a","e","i","o","u"):
+    print("vowel")
+else:
+    print("Consonant ")
   
